@@ -1,7 +1,14 @@
+'use client';
 import Image from 'next/image';
+import { use, useEffect } from 'react';
+import { getData } from '@/api';
 
 const AUTHOR_IMG_SIZE: number = 32;
 export function Preview() {
+  // useEffect(() => {
+  //   const a: any = use(getData());
+  //   console.log(a);
+  // }, []);
   return (
     <div className="article-preview">
       <div className="article-meta">

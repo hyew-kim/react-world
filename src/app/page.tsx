@@ -2,8 +2,9 @@ import '@/styles/main.css';
 import Nav from '@/component/Nav';
 import Footer from '@/component/Footer';
 import Link from 'next/link';
-import { Preview } from '@/app/article/component/Preview';
+import { Preview } from '@/component/article/Preview';
 import { Sidebar } from '@/component/Sidebar';
+
 export default function Home() {
   return (
     <>

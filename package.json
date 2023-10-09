@@ -20,6 +20,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@tanstack/react-query": "^4.35.7",
+    "@tanstack/react-query-devtools": "^4.35.7",
     "next": "13.4.19",
     "react": "18.2.0",
     "react-dom": "18.2.0"
@@ -42,13 +44,13 @@
   },
   "homepage": "https://github.com/pagers-org/react-world#readme",
   "devDependencies": {
-    "typescript": "5.2.2",
     "@types/node": "20.5.9",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
     "eslint": "8.48.0",
     "eslint-config-next": "13.4.19",
     "eslint-plugin-unicorn": "^48.0.1",
-    "prettier": "^3.0.2"
+    "prettier": "^3.0.2",
+    "typescript": "5.2.2"
   }
 }
